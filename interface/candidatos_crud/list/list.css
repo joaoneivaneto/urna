@@ -1,0 +1,36 @@
+.bg-image{
+    background-image:url('background.png');
+    background-repeat: no-repeat;
+    
+    
+}    
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th,
+tbody th {
+  color: #fff;
+}
+
+tbody td {
+  font-weight: 500;
+  color: rgba(255,255,255,.65);
+}
+
+.card {
+  border-radius: .5rem;
+}
+#add{
+    color: white;
+    font-size: 40px;
+}

@@ -1,0 +1,379 @@
+
+body {
+  background-color:#a9a9a9;
+}
+button{
+  cursor: pointer;
+}
+#corpo {
+  
+ 
+  width:400px;
+  padding:180px;
+  height: 0px;
+  background-color:white;
+  margin-left: 290px;
+  margin-top: 130px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#tela {
+    
+    margin-top: -150px;
+    margin-left: -160px;
+    
+    height: 85px;
+    width:190px;
+    padding:100px;
+    background-color: white ;
+    /* background-color: #d3d3d3 ; */
+  
+    border: 1px solid black;
+    
+}
+
+#teclado{
+    margin-top: -280px;
+    margin-right: 350px;
+    margin-left: 725px;
+ 
+    width:100px;
+    padding:100px;
+    height: 65px;
+    background-color:rgb(10, 12, 10);
+  
+    border: 1px solid black;
+
+   
+  
+    
+}
+#title{
+    margin-top: -332px;
+    margin-left: 725px;
+    
+    
+ 
+    width:300px;
+    height: 60px;
+    
+    padding:-1px;
+  
+    background-color:#f8f8ff;
+  
+    border: 1px solid black;
+    
+}
+
+#justica{
+  margin-top: -1px;
+  margin-left: 130px;
+  
+  
+
+  width:235px;
+  height: 50px;
+  
+  padding:-1px;
+
+  font-family: Arial;
+  
+}
+
+#eleitoral{
+  margin-top: -40px;
+  margin-left: 110px;
+  
+  
+
+  width:235px;
+  height: 50px;
+  
+  padding:-1px;
+
+  font-family: Arial;
+  
+}
+#logo{
+  margin-top: -100px;
+  margin-left: -20px;
+  position: absolute;
+  width:100px;
+  height: 50px;
+  
+  padding:-1px;
+
+  font-family: Arial;
+  
+}
+
+
+#fileira {
+  margin-top: 110px;
+  
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+}
+table{
+   margin-top: -95px; 
+   margin-left: -20px;
+   display: flex;
+   flex-wrap: nowrap;
+   position: absolute;
+}
+table td > button{
+  background-color: black;
+  color: white;
+  text-align-last: justify;
+  margin: 8px;
+  width: 35px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+#branco{
+  background-color: white;
+  border: white;
+  font-weight: 900;
+  position: absolute;
+  margin-left: -80px;
+  height: 40px;
+  width: 80px;
+}
+
+#corrige{
+  background-color: orange;
+  border: white;
+  font-weight: 900;
+  position: absolute;
+  margin-left: 12px;
+  height: 40px;
+  width: 80px;
+}
+
+#confirma{
+  background-color:green ;
+  border: white;
+  font-weight: 900;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -20px ;
+  height: 60px;
+  width: 95px;
+}
+
+#foto_cand{
+  width: 60px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+#foto_vice{
+  
+  width: 50px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.intro{
+  margin-top: -100px;
+  margin-left: -95px;
+
+  font-family: Arial;
+  color: gray;
+  font-size: 16px;
+}
+
+#tela_presi{
+  margin-top: -35px;
+  margin-left: 199px;
+
+  width:50px;
+  padding:20px;
+  height: 60px;
+
+  background-color: white;
+
+  border: 1px solid black;
+  position: absolute;
+}
+
+#tela_vice{
+  margin-top: 66px;
+  margin-left: 214px;
+
+  width:35px;
+  padding:20px;
+  height: 60px;
+
+  background-color: white;
+
+  border: 1px solid black;
+  position: absolute;
+}
+
+#text_presi{
+  margin-top: 30px;
+  margin-left: -40px;
+
+  font-family: Arial;
+  font-size: 10px;
+}
+
+#numero{
+  margin-top: 70px;
+  margin-left: -100px;
+  font-family: Arial;
+  font-size: 10px;
+}
+
+
+#nome{
+  margin-top: 20px;
+  margin-left: -100px;
+  font-family: Arial;
+  font-size: 10px;
+}
+#nom_candidato{
+  margin-top: -26px;
+  margin-left: -26px;
+  font-family: Arial;
+  font-size: 13px;
+  position: absolute;
+}
+
+#vice{
+  margin-top: 20px;
+  margin-left: -100px;
+  font-family: Arial;
+  font-size: 10px;
+}
+
+#nom_vice{
+  margin-top: -26px;
+  margin-left: -26px;
+  font-family: Arial;
+  font-size: 13px;
+  position: absolute;
+}
+
+#help{
+  margin-top: 36px;
+  margin-left: -101px;
+
+  width:350px;
+  padding:20px;
+  height: 6px;
+
+  background-color: white;
+
+  border: 1px solid black;
+  
+}
+
+
+
+#valor1, #valor2{
+  margin-top: -30px;
+  margin-left: -26px;
+  color: black;
+  position: absolute;
+  width: 10px;
+}
+
+
+#valor2{
+  margin-left: -6px;
+} 
+#title_help{
+  margin-top: -20px;
+  margin-left: -20px;
+  font-family: Arial;
+  font-size: 10px;
+}
+
+#help_verde{
+  margin-top: -10px;
+  margin-left: -20px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#descricao_verde{
+  margin-top: -38px;
+  margin-left: 40px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#confirm{
+  margin-top: -37px;
+  margin-left: 79px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#help_laranja{
+  margin-top: -20px;
+  margin-left: -20px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#descricao_laranja{
+  margin-top: -38px;
+  margin-left: 60px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#reiniciar{
+  margin-top: -37px;
+  margin-left: 99px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+
+#fim > h1{
+  margin-top: 15px;
+  margin-left: 50px;
+
+  font-family: Arial;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.582);
+
+}
+
+#fim{
+  margin-top: -200px;
+  margin-left: -60px;
+}
+
+#dashBoard,#lista_de_canditato{
+  margin-top: 6px;
+  margin-left: -160px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  border: solid 2px;
+  border-radius:  5px;
+}
+#dashBoard{
+  color: #008CBA;
+  border-color: #008CBA;
+
+ 
+}
+#lista_de_canditato{
+  color: #4CAF50;
+  border-color: #4CAF50;
+  
+  margin-left: -115px;
+  
+}
+
