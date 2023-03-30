@@ -50,7 +50,7 @@ function show(){
 }
 function inserir_voto(id,data,status){
     
-    var url ="https://localhost:7064/api/Votos"
+        var url ="https://localhost:7064/api/Votos"
         $.ajax({
             type: "POST",
             url: url,

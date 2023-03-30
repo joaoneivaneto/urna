@@ -1,6 +1,6 @@
 
 body {
-  background-color:#a9a9a9;
+  background-color:rgba(0,0,0,.25);
 }
 button{
   cursor: pointer;
@@ -289,11 +289,18 @@ table td > button{
 #valor2{
   margin-left: -6px;
 } 
-#title_help{
+.help_intro{
   margin-top: -20px;
-  margin-left: -20px;
+  margin-left: -18px;
+  font-size: 13px;
+}
+
+
+#descricao_verde{
+  margin-top: -20px;
+  margin-left: 3px;
   font-family: Arial;
-  font-size: 10px;
+  
 }
 
 #help_verde{
@@ -303,16 +310,8 @@ table td > button{
   font-size: 15px;
 }
 
-#descricao_verde{
-  margin-top: -38px;
-  margin-left: 40px;
-  font-family: Arial;
-  font-size: 15px;
-}
-
 #confirm{
   margin-top: -37px;
-  margin-left: 79px;
   font-family: Arial;
   font-size: 15px;
 }
@@ -325,15 +324,15 @@ table td > button{
 }
 
 #descricao_laranja{
-  margin-top: -38px;
-  margin-left: 60px;
+  margin-top: -24px;
+  margin-left: 3px;
   font-family: Arial;
   font-size: 15px;
 }
 
 #reiniciar{
-  margin-top: -37px;
-  margin-left: 99px;
+ 
+  margin-left: -46px;
   font-family: Arial;
   font-size: 15px;
 }
