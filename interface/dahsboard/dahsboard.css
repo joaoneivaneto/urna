@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+body {
+    margin:0;
+    padding:5% 0;
+    font-family: sans-serif;
+    background-color:#141e30;
+}
+
+.home{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+.grafics{
+    margin: auto;
+    width: 60%;
+    
+
+}
+
+#li{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.188);
+    width: 80%;
+    height: 1%;
+    padding: 0 2%;
+    margin: 3% 10%;
+    
+    display: flex;
+    align-items: center;
+   
+}
+
+.index,.foto_cand,.nome_cand,.numero_votos{
+   padding-left: 8%;
+}
+
+
+.foto_cand{
+   width: 10%;
+   height: 10%;
+}
+.index{
+    display: contents;
+    color:turquoise;
+    opacity:0.9;
+    font-weight:900;
+    font-size: 100px;
+}
+
+.nome_cand{
+    color:turquoise;
+    opacity:0.9;
+    font-weight:900;
+    font-size: 30px;
+}
+canvas{
+    width: 1%;
+    height: 1%;
+}
+.numero_votos{
+    color:turquoise;
+    opacity:0.9;
+    font-weight:900;
+    font-size: 30px;
+    
+}
+

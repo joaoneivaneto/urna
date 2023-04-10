@@ -60,6 +60,18 @@ namespace CandidatosApi.Controllers
 
             return statusVoto;
         }
+        [HttpGet]
+        [Route("IdCandidato")]
+        public async Task<ActionResult<List<Voto>>> GetVotosCandidatos([FromQuery] Guid id)
+        {
+
+            var candidato_id = await _context.votos
+                  .Where(x => x.IdCandidato == id)
+                  .ToListAsync();
+
+
+            return candidato_id ;
+        }
 
 
 
